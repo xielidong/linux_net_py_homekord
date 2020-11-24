@@ -25,7 +25,7 @@ def myrevc(c):
 		msg = c.recv(1024) # 当没有消息的时候休息，阻塞
 		print(msg.decode())
 
-#threading._start_new_thread(myrevc,(c[0],))
+#threading._start_new_thread(myrevc)
 
 while True:
 	msg = input()
