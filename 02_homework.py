@@ -1,5 +1,5 @@
 import turtle as t 
-import time 
+import time
 
 t.pensize(5)
 t.color("blue","yellow")
