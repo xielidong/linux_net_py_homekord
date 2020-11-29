@@ -1,4 +1,4 @@
-score=input("Enter score:")
+score=input("Enter score : ")
 
 if(score.isalpha()):
 	print("Bad score")

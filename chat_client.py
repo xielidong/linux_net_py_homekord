@@ -19,7 +19,7 @@ def myrevc(c):
 		msg = c.recv(1024)
 		print(msg.decode())
 
-threading._start_new_thread(myrevc,(u,))
+threading._start_new_thread(myrevc)
 
 while True:
 	print("输入")

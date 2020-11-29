@@ -1,7 +1,7 @@
 list=[]
 total = 0
 while True:
-    inp = input('Enter a number: ')
+    inp = input('Enter a number : ')
     try:
         num = (int)(inp)
         list.append(num)
